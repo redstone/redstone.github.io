@@ -1,0 +1,46 @@
+body {
+	background: #7F3D46;
+	margin: 15px;
+	font-weight: 100;
+	margin-bottom: 100px;
+}
+
+body .main-container {
+	width: 80%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+}
+
+header img {
+	height: 45vh;
+	border: none;
+}
+.projects {
+	text-align: center;
+}
+
+.projects img {
+	width: 80%;
+}
+
+.content {
+	background: #fff;
+	padding: 20px;
+	box-shadow: inset 1px 1px 0 #fff;
+	border-radius: 2px;
+}
+
+.content img {
+	height: 100%;
+}
+.content .social {
+	height: 50px;
+}
+
+hr {
+	border: 1px solid #cfcfcf;
+}
