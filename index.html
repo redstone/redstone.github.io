@@ -7,11 +7,41 @@
 
 	<title>Redstone Ore</title>
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/pure/0.6.2/pure-min.css" integrity="sha256-l8LBIT/hSUv+lPB5sCHme+XoztA5gysT4rV/kDYas/c=" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/pure/0.6.2/grids-responsive-min.css" integrity="sha256-M1X+0yr4YpVrD2OAwiadUc6oYOlcT4juQcmbjP/MjW4=" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-old-ie-min.css">
+	<![endif]-->
+	<!--[if gt IE 8]><!-->
+		<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+	<!--<![endif]-->
+
+	<link rel="stylesheet" href="style.css?v:1">
+
 </head>
 <body>
-	<h1>RedstoneOre.net</h1>
-	<p>Hello, world!</p>
+	<div class="main-container">
+		<header>
+			<img src="redstoneore.png" alt="redstone ore logo">
+		</header>
+
+		<div class="content">
+			<div class="pure-g" style="text-align: center">
+				<div class="pure-u-1 pure-u-md-1-2">
+					<a href="https://github.com/redstone/"><img class="social" src="images/github.png" alt="github page" border="0"></a>
+				</div>
+				<div class="pure-u-1 pure-u-md-1-2">
+					<a href="https://discord.gg/p3VjnUd" target="_blank"><img class="social" src="images/discord.png" alt="join our discord" border="0"></a>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="projects">
+				<a href="legacyfactions.html"><img src="images/legacyfactions.png" alt="legacy factions page" border="0"></a>
+			</div>
+		</div>
+	</div>
+
 </body>
 </html>
